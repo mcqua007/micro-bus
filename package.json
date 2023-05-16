@@ -1,0 +1,24 @@
+{
+  "name": "micro-bus",
+  "version": "0.1",
+  "description": "Lightweight event bus.",
+  "main": "index.js",
+  "author": "Sean McQuaid",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcqua007/micro-bus.git"
+  },
+  "devDependencies": {
+    "rollup": "^3.21.8",
+    "rollup-plugin-filesize": "^10.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
